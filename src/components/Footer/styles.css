@@ -1,0 +1,37 @@
+footer {
+  width: 100%;
+  height: 5%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.footer__contacts {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__img {
+  width: 34px;
+  height: 34px;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  -ms-transition: -ms-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+.footer__img:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  cursor: pointer;
+}
